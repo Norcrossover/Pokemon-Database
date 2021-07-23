@@ -46,20 +46,21 @@ function readTextFile(file)
     rawFile.send(null);
 }
 
-Class Pokemon {
+class Pokemon {
     // NUMBER,CODE,SERIAL,NAME,TYPE1,TYPE2,COLOR,ABILITY1,ABILITY2,ABILITY HIDDEN,GENERATION,LEGENDARY,MEGA_EVOLUTION,HEIGHT,WEIGHT,HP,ATK,DEF,SP_ATK,SP_DEF,SPD,TOTAL
-    
-}
-
-Class Node {
-    constructor (data) {
-        this.data = data
-        this.left = null
-        this.right = null
+    constructor () {
+        
     }
 }
 
-Class Tree {
+class Node {
+    constructor (data) {
+        this.data = data
+        this.left = this.right = null
+    }
+}
+
+class Tree {
     constructor () {
         this.root = null
     }
