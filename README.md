@@ -1,5 +1,8 @@
 
 # PokemonDatabase
+
+THIS IS NOT AN ACTUAL DATABASE, BUT ORIGINALLY WAS GOING TO BE BUILT IN MySQL. Takes inspiration from: https://pokemondb.net/
+
 INTRO:
 This program is more of a random experimental type thing. I know I want to first make a simple webpage. Then add a backend. Then improve upon it for the front end. This will be a program that helps improve my full stack development skills. 
 
